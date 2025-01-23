@@ -29,7 +29,7 @@ Widget _body(BuildContext context) {
               color: Colors.blue, width: 1, style: BorderStyle.solid),
         ),
       ),
-      onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const FaceDetector())),
+      onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const FaceDetectorPage())),
       child: const Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
